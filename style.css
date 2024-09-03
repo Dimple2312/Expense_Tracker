@@ -1,0 +1,77 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+    background-color: gainsboro;
+    color: primary-color;
+  }
+
+  .container {
+    margin: 24px;
+    padding: 24px;
+  }
+
+  .hidden {
+    display: none;
+  }
+  
+.header{
+  display:flex ;
+}
+
+.header-headings {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.add-btn{
+    background-color:turquoise;
+    color: white;
+    font-size:15px;
+    border-radius: 5px;
+    border-style: none;
+    padding:10px;
+    margin:10px;
+    cursor: pointer;
+}
+
+.add-btn:hover{
+background-color: darkcyan;
+}
+
+.info {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+  }
+   
+  .info-add-new,
+  .info-summary {
+    display: flex;
+    height: 20rem;
+    width: 30rem;
+    background-color: white;
+    border-radius: 20px;
+    padding: 1rem;
+  }
+  
+.detail {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.detail-category,
+.detail-recents {
+  display: flex;
+  /* height: 20rem;
+  width: 30rem; */
+  background-color: var(--white);
+  border-radius: 20px;
+  padding: 1rem;
+}
